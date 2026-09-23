@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: e967f018f994b23489c4c97965f66733
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5986636488105300301
+    second: poluchUronaOG_0
+  - first:
+      213: 6484190989304837317
+    second: poluchUronaOG_1
+  - first:
+      213: 2855731333653509768
+    second: poluchUronaOG_2
+  - first:
+      213: -6240262898677777014
+    second: poluchUronaOG_3
+  - first:
+      213: -654279936322883109
+    second: poluchUronaOG_4
+  - first:
+      213: -7566077031783861088
+    second: poluchUronaOG_5
+  - first:
+      213: 4093703313843960998
+    second: poluchUronaOG_6
+  - first:
+      213: 5062856457450188757
+    second: poluchUronaOG_7
+  - first:
+      213: -1394053888956622476
+    second: poluchUronaOG_8
+  - first:
+      213: 1484214730200217597
+    second: poluchUronaOG_9
+  - first:
+      213: 7529383007651190579
+    second: poluchUronaOG_10
+  - first:
+      213: 5799591719926923015
+    second: poluchUronaOG_11
+  - first:
+      213: -7129784392303474764
+    second: poluchUronaOG_12
+  - first:
+      213: -9032994090475809831
+    second: poluchUronaOG_13
+  - first:
+      213: -7621115263963837884
+    second: poluchUronaOG_14
+  - first:
+      213: -7410397568543759355
+    second: poluchUronaOG_15
+  - first:
+      213: -185890758324972695
+    second: poluchUronaOG_16
+  - first:
+      213: -1498245200930506005
+    second: poluchUronaOG_17
+  - first:
+      213: 7542578637674589971
+    second: poluchUronaOG_18
+  - first:
+      213: 8699357282789386362
+    second: poluchUronaOG_19
+  - first:
+      213: 5396189807252568148
+    second: poluchUronaOG_20
+  - first:
+      213: -2344031451782580812
+    second: poluchUronaOG_21
+  - first:
+      213: 2152372015468606871
+    second: poluchUronaOG_22
+  - first:
+      213: 8413591537496913327
+    second: poluchUronaOG_23
+  - first:
+      213: 1529863616011049765
+    second: poluchUronaOG_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poluchUronaOG_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 475
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be671725d13beca0800000000000000
+      internalID: -5986636488105300301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 475
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4bd4d99597cf950800000000000000
+      internalID: 6484190989304837317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 526
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886be54848891a720800000000000000
+      internalID: 2855731333653509768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 475
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8df24bb4f12669a0800000000000000
+      internalID: -6240262898677777014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 527
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd13fcb4dd78be6f0800000000000000
+      internalID: -654279936322883109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 475
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4f741c605eff690800000000000000
+      internalID: -7566077031783861088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_6
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 475
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac328d7971cfc830800000000000000
+      internalID: 4093703313843960998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_7
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 476
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df6c17bf11e24640800000000000000
+      internalID: 5062856457450188757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_8
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 475
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4791dfebf5357ace0800000000000000
+      internalID: -1394053888956622476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_9
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 475
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df77cf3fe6df89410800000000000000
+      internalID: 1484214730200217597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 514
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33759ecf3fdbd7860800000000000000
+      internalID: 7529383007651190579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 498
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f7a8411f94c7050800000000000000
+      internalID: 5799591719926923015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_12
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 498
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b780a3dedaed0d90800000000000000
+      internalID: -7129784392303474764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 497
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d39cfacbbb54a280800000000000000
+      internalID: -9032994090475809831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 498
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ac02bbb0c5c3690800000000000000
+      internalID: -7621115263963837884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 464
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504e7826caaf82990800000000000000
+      internalID: -7410397568543759355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 465
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963130717559b6df0800000000000000
+      internalID: -185890758324972695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_17
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 463
+        width: 56
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea7a148de9253be0800000000000000
+      internalID: -1498245200930506005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_18
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 464
+        width: 50
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f2b050f4f9ca860800000000000000
+      internalID: 7542578637674589971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 463
+        width: 52
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a786ed68b535ab870800000000000000
+      internalID: 8699357282789386362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_20
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 463
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4587fd91a0e13ea40800000000000000
+      internalID: 5396189807252568148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 464
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5f72650d3587fd0800000000000000
+      internalID: -2344031451782580812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_22
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 464
+        width: 39
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7957f7eb1f2cedd10800000000000000
+      internalID: 2152372015468606871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_23
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 463
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa57cbd1de413c470800000000000000
+      internalID: 8413591537496913327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poluchUronaOG_24
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 464
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b122b6ada2b3510800000000000000
+      internalID: 1529863616011049765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      poluchUronaOG_0: -5986636488105300301
+      poluchUronaOG_1: 6484190989304837317
+      poluchUronaOG_10: 7529383007651190579
+      poluchUronaOG_11: 5799591719926923015
+      poluchUronaOG_12: -7129784392303474764
+      poluchUronaOG_13: -9032994090475809831
+      poluchUronaOG_14: -7621115263963837884
+      poluchUronaOG_15: -7410397568543759355
+      poluchUronaOG_16: -185890758324972695
+      poluchUronaOG_17: -1498245200930506005
+      poluchUronaOG_18: 7542578637674589971
+      poluchUronaOG_19: 8699357282789386362
+      poluchUronaOG_2: 2855731333653509768
+      poluchUronaOG_20: 5396189807252568148
+      poluchUronaOG_21: -2344031451782580812
+      poluchUronaOG_22: 2152372015468606871
+      poluchUronaOG_23: 8413591537496913327
+      poluchUronaOG_24: 1529863616011049765
+      poluchUronaOG_3: -6240262898677777014
+      poluchUronaOG_4: -654279936322883109
+      poluchUronaOG_5: -7566077031783861088
+      poluchUronaOG_6: 4093703313843960998
+      poluchUronaOG_7: 5062856457450188757
+      poluchUronaOG_8: -1394053888956622476
+      poluchUronaOG_9: 1484214730200217597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
