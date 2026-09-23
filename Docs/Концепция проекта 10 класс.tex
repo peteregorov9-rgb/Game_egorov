@@ -1,0 +1,387 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{Оглавление}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Титульный лист}
+\item
+  \textbf{Введение}
+
+  \begin{itemize}
+  \item
+    \textbf{2.1. Актуальность проекта}
+  \item
+    \textbf{2.2. Цель проекта}
+  \item
+    \textbf{2.3. Задачи проекта}
+  \end{itemize}
+\item
+  \textbf{Общее описание игры}
+\item
+  \textbf{Игровой процесс}
+
+  \begin{itemize}
+  \item
+    \textbf{4.1. Ключевые особенности геймплея}
+  \item
+    \textbf{4.2. Основной игровой цикл}
+  \end{itemize}
+\item
+  \textbf{Сюжет и игровой прогресс}
+
+  \begin{itemize}
+  \item
+    \textbf{5.1. Завязка}
+  \item
+    \textbf{5.2. Прогрессия}
+  \item
+    \textbf{5.3. Условие победы}
+  \end{itemize}
+\item
+  \textbf{Техническая реализация}
+
+  \begin{itemize}
+  \item
+    \textbf{6.1. Движок}
+  \item
+    \textbf{6.2. Основные системы}
+  \item
+    \textbf{6.3. Планируемые инструменты}
+  \end{itemize}
+\item
+  \textbf{Этапы разработки}
+\item
+  \textbf{Ожидаемые результаты}
+\item
+  \textbf{Заключение}
+\end{enumerate}
+
+\textbf{Документация проекта: 2D Top-Down Action}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{1. Титульный лист}
+
+\textbf{Название проекта:}~2D Top-Down Action\\
+\textbf{Автор:}~ученик 10 класса\\
+\textbf{Платформа:}~Unity\\
+\textbf{Жанр:}~2D экшен с элементами исследования (вид сверху)\\
+\textbf{Год:}~2026
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{2. Введение}
+
+\textbf{2.1. Актуальность проекта}
+
+Современные инди-игры всё чаще обращаются к атмосферным проектам, где
+ключевую роль играют свет и темнота. Механика освещения как центральный
+элемент геймплея позволяет создать уникальный опыт и выделить игру среди
+аналогов. Проект сочетает динамичный экшен с исследованием, что делает
+его интересным для широкой аудитории.
+
+\textbf{2.2. Цель проекта}
+
+Создать 2D экшен с видом сверху, в котором игрок проходит ряд испытаний,
+преодолевает сопротивление противников и достигает финальной точки
+уровня для успешного завершения игры.
+
+\textbf{2.3. Задачи проекта}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Разработать концепцию игрового мира и сюжета.
+\item
+  Реализовать механику освещения как центральный элемент геймплея.
+\item
+  Создать систему взаимодействия с NPC.
+\item
+  Реализовать систему сбора деталей и их установки на вышку.
+\item
+  Разработать боевую систему и противников.
+\item
+  Реализовать финальную сцену и условие победы.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{3. Общее описание игры}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3536}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6464}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Параметр
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Значение
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Жанр & 2D экшен с элементами исследования \\
+Платформа & Unity(v6) \\
+Вид камеры & Вид сверху \\
+Визуальный стиль & Тёмная карта, контрастное освещение \\
+Ключевая механика & Освещение \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{4. Игровой процесс}
+
+\textbf{4.1. Ключевые особенности геймплея}
+
+\textbf{Визуальный стиль и освещение:}
+
+\begin{itemize}
+\item
+  Карта полностью погружена в темноту.
+\item
+  Источниками света выступают исключительно сам персонаж и враги.
+\item
+  Механика освещения является центральным элементом геймплея.
+\item
+  Перспектива --- вид сверху.
+\end{itemize}
+
+\textbf{Взаимодействие с нейтральными персонажами (NPC):}
+
+\begin{itemize}
+\item
+  Игрок может взаимодействовать с NPC для получения информации,
+  подсказок или квестов.
+\item
+  NPC могут помогать в исследовании или предоставлять доступ к новым
+  зонам.
+\end{itemize}
+
+\textbf{4.2. Основной игровой цикл}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Перемещение по тёмной карте.
+\item
+  Взаимодействие с NPC.
+\item
+  Поиск деталей.
+\item
+  Бой с врагами (преодоление испытаний).
+\item
+  Установка деталей на вышку.
+\item
+  Финал игры.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{5. Сюжет и игровой прогресс}
+
+\textbf{5.1. Завязка}
+
+Персонаж оказывается в незнакомой локации, погружённой во тьму.
+Единственный источник света --- он сам и враги. Чтобы выбраться, ему
+необходимо восстановить работу электрической вышки.
+
+\textbf{5.2. Прогрессия}
+
+Для завершения игры и выхода из локации игроку необходимо:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Исследовать территорию}~и взаимодействовать с другими
+  персонажами.
+\item
+  \textbf{Собрать все необходимые детали (компоненты).}
+\item
+  \textbf{Активировать электрическую вышку.}
+\end{enumerate}
+
+\textbf{5.3. Условие победы}
+
+Активация вышки запускает финальную сцену и завершает игровой сеанс.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{6. Техническая реализация}
+
+\textbf{6.1. Движок}
+
+\begin{itemize}
+\item
+  \textbf{Unity}~--- (Unity v6) выбран благодаря мощным инструментам для
+  работы с 2D-графикой и освещением (2D Lighting System).
+\end{itemize}
+
+\textbf{6.2. Основные системы}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3551}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6449}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Система
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Описание
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Система освещения & Динамическое освещение от персонажа и врагов \\
+Система перемещения & 2D-движение с видом сверху \\
+Система взаимодействия & Взаимодействие с NPC и объектами \\
+Система сбора предметов & Поиск и подбор деталей \\
+Боевая система & Бой с врагами \\
+Система прогресса & Установка деталей на вышку, активация финала \\
+\end{longtable}
+
+\textbf{6.3. Планируемые инструменты}
+
+\begin{itemize}
+\item
+  Unity v6 (2D)
+\item
+  Lighting
+\item
+  Tilemap
+\item
+  Animator
+\item
+  Physics 2D
+\item
+  UI System
+\item
+  Visual Studio
+\item
+  Искусственный интеллект(для создания карты, анимаций и персонажей)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{7. Этапы разработки}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1145}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.5265}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3590}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Этап
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Содержание
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Срок
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & Проектирование концепции и сюжета & 1 неделя \\
+2 & Создание прототипа уровня & 2 недели \\
+3 & Реализация системы освещения & 2 недели \\
+4 & Добавление NPC и взаимодействий & 1 неделя \\
+5 & Реализация боевой системы & 2 недели \\
+6 & Система сбора деталей и вышка & 1 неделя \\
+7 & Финальная сцена и полировка & 1 неделя \\
+8 & Тестирование и отладка & 1 неделя \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{8. Ожидаемые результаты}
+
+По завершении проекта будет получена игра, в которой:
+
+\begin{itemize}
+\item
+  Реализована уникальная механика освещения.
+\item
+  Присутствует полноценный игровой цикл.
+\item
+  Работает система взаимодействия с NPC.
+\item
+  Реализован сбор деталей и активация вышки.
+\item
+  Игра завершается финальной сценой.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{9. Заключение}
+
+Проект «2D Top-Down Action» представляет собой атмосферный экшен с видом
+сверху, где темнота и свет являются не просто визуальным решением, а
+основой геймплея. Реализация проекта позволит освоить ключевые навыки
+работы с Unity, 2D-графикой, системами освещения и игровым дизайном.
+Игра может быть интересна как для портфолио, так и для дальнейшего
+развития в полноценный коммерческий продукт.
+
+\end{document}
